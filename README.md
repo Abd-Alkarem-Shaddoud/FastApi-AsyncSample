@@ -40,6 +40,7 @@ data python -m tests.seeder
 Example Endpoint GET /dashboard/{user_id}
 Returns:
 
-{ "user_data": {}, "orders_data": [], "external_data": [] } 🧪 Testing Strategy Uses pytest-asyncio for async test execution Uses httpx.AsyncClient with ASGI transport Validates full request lifecycle without real HTTP server 📌 Key Learning Outcomes Deep understanding of Python async concurrency model Practical use of TaskGroup vs gather Safe database access patterns in async environments Combining DB + external API calls efficiently Writing testable async FastAPI architectures 📎 Author
+{ "user_data": {}, "orders_data": [], "external_data": [] } 🧪 Testing Strategy Uses pytest-asyncio for async test execution Uses httpx.AsyncClient with ASGI transport Validates full request lifecycle without real HTTP server 📌 Key Learning Outcomes Deep understanding of Python async concurrency model Practical use of TaskGroup vs gather Safe database access patterns in async environments Combining DB + external API calls efficiently Writing testable async FastAPI architectures
 
+📎 Author
 👨‍💻 Abd-Alkarem_Shaddoud.dev 🔗 GitHub: https://github.com/Abd-Alkarem-Shaddoud/FastApi-AsyncSample
